@@ -39,44 +39,44 @@ Not deployed, as it requires a Node.js runtime, MongoDB, and environment variabl
 
 ### Local Development Setup
 
-** 1. Clone the repository **
+**1. Clone the repository**
 ```bash
 git clone https://github.com/KajalSingh-17/simple-social-app.git
 cd simple-social-app
 ```
 
-** 2. Install dependencies **
+**2. Install dependencies**
 ```bash
 npm install
 ```
 
-** 3. Create environment variables **
+**3. Create environment variables**
 ```bash
 touch .env
 ```
 
-** 4. Add the following to .env **
+**4. Add the following to .env**
 ```bash
 PORT=3000
 JWT_SECRET=your_secret_key
 MONGO_URI=mongodb://127.0.0.1:27017/simple-social-app
 ```
 
-** 5. Start MongoDB **
+**5. Start MongoDB**
 ```bash
 mongod
 # OR on Windows
 net start MongoDB
 ```
 
-** 6. Run development server **
+**6. Run development server**
 ```bash
 npm start
 # OR (if using nodemon)
 npm run dev
 ```
 
-** 7. Open in browser **
+**7. Open in browser**
 http://localhost:3000
 
 ### 🧪 Learning Outcomes
