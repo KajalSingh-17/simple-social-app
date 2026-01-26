@@ -3,7 +3,7 @@
 A small backend project built using **Node.js**, **Express**, and **MongoDB** to practice
 authentication and CRUD operations.
 
-This project focuses on **backend fundamentals** rather than deployment or UI polish.
+This project focuses on backend fundamentals rather than deployment or UI polish.
 
 ---
 
@@ -26,61 +26,63 @@ This project focuses on **backend fundamentals** rather than deployment or UI po
 - MongoDB + Mongoose
 - JWT (JSON Web Tokens)
 - bcrypt
-- EJS
+- EJS (server-side templating)
 - dotenv
 
 ---
 
 ## 📁 Project Type
 
-> ⚠️ Backend-focused learning project
->
-> ⚙️ Running Locally
+⚠️ **Backend-focused learning project**
+
+This project is intended to run locally and is not deployed, as it requires a
+Node.js runtime, MongoDB, and environment variables.
+
+---
+
+## ⚙️ Running Locally
 
 ### 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/KajalSingh-17/simple-social-app.git
 cd simple-social-app
-
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 npm install
-
-### 3️⃣ Create a .env file
+3️⃣ Create a .env file
 Create a .env file in the root directory and add:
-(##EXAMPLE)
+
 PORT=3000
 JWT_SECRET=your_secret_key
 MONGO_URI=mongodb://127.0.0.1:27017/simple-social-app
+(You can refer to .env.example if provided.)
 
-### 4️⃣ Start MongoDB
-
+4️⃣ Start MongoDB
 Make sure MongoDB is running locally:
 
 mongod
-
-### 5️⃣ Start the server
+5️⃣ Start the server
 npm start
+The server will run at:
 
+http://localhost:3000
 🧪 Learning Outcomes
+This project helped me understand:
 
-- This project helped me understand:
+Express routing and middleware
 
-- Express routing and middleware
+Authentication using JWT and cookies
 
-- Authentication using JWT and cookies
+Secure password hashing with bcrypt
 
-- Secure password hashing
+MongoDB schema design and relationships
 
-- MongoDB schema design and relationships
+Environment variable management
 
-- Environment variable management
-
-- Backend project structure
+Backend project structure and flow
 
 📌 Notes
+This is a learning project, not a production application
 
-- This is a learning project, not a production application
+Server-side rendered views using EJS templates
 
-- Server-side rendered views using EJS templates
-
-- Deployment was intentionally skipped due to project scope
+Deployment was intentionally skipped due to project scope
