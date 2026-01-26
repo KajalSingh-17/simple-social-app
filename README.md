@@ -1,9 +1,8 @@
 # Simple Social App (Backend)
 
-A small backend project built using **Node.js**, **Express**, and **MongoDB** to practice
-authentication and CRUD operations.
-
-This project focuses on backend fundamentals rather than deployment or UI polish.
+A small backend project built using Node.js, Express, and MongoDB to practice
+authentication and CRUD operations. This project focuses on backend fundamentals
+rather than deployment or UI polish.
 
 ---
 
@@ -14,7 +13,7 @@ This project focuses on backend fundamentals rather than deployment or UI polish
 - Create, read, update, and delete posts
 - Like / unlike posts
 - User–post relationship handling
-- Server-side rendering with EJS
+- Server-side rendering using EJS
 - Environment variable management using `.env`
 
 ---
@@ -33,56 +32,74 @@ This project focuses on backend fundamentals rather than deployment or UI polish
 
 ## 📁 Project Type
 
-⚠️ **Backend-focused learning project**
-
-This project is intended to run locally and is not deployed, as it requires a
-Node.js runtime, MongoDB, and environment variables.
+Backend-focused learning project.  
+Not deployed, as it requires a Node.js runtime, MongoDB, and environment variables.
 
 ---
 
-## ⚙️ Running Locally
+## Local Development Setup
 
-### 1️⃣ Clone the repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/KajalSingh-17/simple-social-app.git
 cd simple-social-app
-2️⃣ Install dependencies
-npm install
-3️⃣ Create a .env file
-Create a .env file in the root directory and add:
+```
 
+# 2. Install dependencies
+```bash
+npm install
+```
+
+# 3. Create environment variables
+```bash
+touch .env
+```
+
+# 4. Add the following to .env
+```bash
 PORT=3000
 JWT_SECRET=your_secret_key
 MONGO_URI=mongodb://127.0.0.1:27017/simple-social-app
-(You can refer to .env.example if provided.)
+```
 
-4️⃣ Start MongoDB
-Make sure MongoDB is running locally:
-
+# 5. Start MongoDB
+```bash
 mongod
-5️⃣ Start the server
+# OR on Windows
+net start MongoDB
+```
+
+# 6. Run development server
+```bash
 npm start
-The server will run at:
+# OR (if using nodemon)
+npm run dev
+```
 
+# 7. Open in browser
 http://localhost:3000
-🧪 Learning Outcomes
-This project helped me understand:
 
-Express routing and middleware
+### 🧪 Learning Outcomes
 
-Authentication using JWT and cookies
+- This project helped me understand:
 
-Secure password hashing with bcrypt
+- Express routing and middleware
 
-MongoDB schema design and relationships
+- Authentication using JWT and cookies
 
-Environment variable management
+- Secure password hashing with bcrypt
 
-Backend project structure and flow
+- MongoDB schema design and relationships
 
-📌 Notes
-This is a learning project, not a production application
+- Environment variable management
 
-Server-side rendered views using EJS templates
+- Backend project structure and flow
 
-Deployment was intentionally skipped due to project scope
+### 📌 Notes
+
+- This is a learning project, not a production application
+
+- Server-side rendered views using EJS templates
+
+- Deployment was intentionally skipped due to project scope
+
