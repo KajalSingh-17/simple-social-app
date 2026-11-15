@@ -6,7 +6,7 @@ rather than deployment or UI polish.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - User authentication (Signup / Login / Logout)
 - JWT-based authentication using cookies
@@ -18,7 +18,7 @@ rather than deployment or UI polish.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Node.js
 - Express.js
@@ -30,7 +30,7 @@ rather than deployment or UI polish.
 
 ---
 
-## 📁 Project Type
+##  Project Type
 
 Backend-focused learning project.  
 Not deployed, as it requires a Node.js runtime, MongoDB, and environment variables.
@@ -79,7 +79,7 @@ npm run dev
 **7. Open in browser**
 http://localhost:3000
 
-### 🧪 Learning Outcomes
+### Learning Outcomes
 
 - This project helped me understand:
 
@@ -95,7 +95,7 @@ http://localhost:3000
 
 - Backend project structure and flow
 
-### 📌 Notes
+###  Notes
 
 - This is a learning project, not a production application
 
